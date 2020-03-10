@@ -63,6 +63,6 @@ python tools/test_net.py --config-file "configs/centermask/centermask_R_50_FPN_l
 ```
 
 ## TODO
- - [] add ATSS provided by a CVPR2020
- - [] add PointRend
- - [] add depth estimation module
+ - [] add [ATSS](https://github.com/sfzhang15/ATSS) provided by a CVPR2020
+ - [] add [PointRend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend)
+ - [x] add more different loss functions
