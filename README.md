@@ -48,7 +48,6 @@ Follow [the instruction](https://github.com/facebookresearch/maskrcnn-benchmark#
 
 First of all, you have to download the weight file you want to inference.
 
-For examaple (CenterMask-Lite-R-50),
 ##### multi-gpu evaluation & test batch size 16,
 ```bash
 wget https://www.dropbox.com/s/2enqxenccz4xy6l/centermask-lite-R-50-ms-bs32-1x.pth
@@ -64,6 +63,6 @@ python tools/test_net.py --config-file "configs/centermask/centermask_R_50_FPN_l
 ```
 
 ## TODO
- - [x] add ATSS provided by a CVPR2020
- - [x] add PointRend
- - [x] add depth estimation module
+ - [] add ATSS provided by a CVPR2020
+ - [] add PointRend
+ - [] add depth estimation module
