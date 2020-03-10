@@ -1,6 +1,6 @@
 # CenterMask_plus
 
-
+## Note:  The original implementation is at [here](https://github.com/youngwanLEE/CenterMask). More details could be found in their project.
 
 ## Highlights
 - **First** . various loss functions(DistanceIOU, CompleteIOU) are supplied
