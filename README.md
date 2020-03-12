@@ -51,8 +51,8 @@ Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate f
 #### Tips
 when trying to use these new datasets, three things should be done before launching your project.
 1. add your dataloader and eval scripts
-2. modifiy  **paths_catalog.py**  to add directories of our new datasets
-3. change the **input_size** and **NUM_CLASSES** in **defaults.py**
+2. modifiy  **paths_catalog.py**  to add directories of your new datasets
+3. change the **INPUT** and **NUM_CLASSES** in **defaults.py**
 
 ## Training
 Follow [the instructions](https://github.com/facebookresearch/maskrcnn-benchmark#multi-gpu-training) of  [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) guides.
