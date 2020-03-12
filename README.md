@@ -11,6 +11,23 @@
 Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
 
 ## Set up datasets
+
+1. Download the Cityscapes dataset (leftImg8bit\_trainvaltest.zip) from the official [website](https://www.cityscapes-dataset.com/downloads/).
+2. Download the annotation files from the official [website](https://www.cityscapes-dataset.com/downloads/).
+3. Organize the dataset as the following structure:
+    ```
+    ├── /path/to/cityscapes
+    │   ├── annotations
+    │   ├── leftImg8bit
+    │   ├── gtFine
+    ```
+4. Create a soft link(optional):
+    ```
+    ROOT=/path/to/cityscapes
+    cd $ROOT/datasets
+    ln -s /path/to/cityscapes cityscapes
+    ```
+
 #### Kitti
 
 1. Download the Kitti dataset from the official [website](http://www.cvlibs.net/download.php?file=data_object_image_2.zip).
@@ -27,10 +44,15 @@ Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate f
     ```
 4. Create a soft link:
     ```
-    ROOT=/path/to/snake
-    cd $ROOT/data
+    ROOT=/path/to/kitti
+    cd $ROOT/datasets
     ln -s /path/to/kitti kitti
     ```
+#### Tips
+when trying to use these new datasets, three things should be done before launching your project.
+1. add your dataloader and eval scripts
+2. modifiy  **paths_catalog.py**  to add directories of our new datasets
+3. change the **input_size** and **NUM_CLASSES** in **defaults.py**
 
 ## Training
 Follow [the instructions](https://github.com/facebookresearch/maskrcnn-benchmark#multi-gpu-training) of  [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) guides.
