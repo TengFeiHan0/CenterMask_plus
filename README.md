@@ -3,9 +3,10 @@
 ## Note:  The original implementation is at [here](https://github.com/youngwanLEE/CenterMask). More details could be found in their project.
 
 ## Highlights
-- **First** . various loss functions(DistanceIOU, CompleteIOU) are supplied
-- **Second** . interfaces to more driving datasets(including KITTI, Cityscapes) 
-- **Thrid**. many new proposed ideas(ATSS) based on FCOS will be included  
+- **LOSS** . various loss functions(DistanceIOU, CompleteIOU) are supplied
+- **DATASET** . interfaces to more driving datasets(including KITTI, Cityscapes) 
+- **ATSS**. many new proposed ideas(ATSS) based on FCOS will be included
+- **Tensorboard**. to disply the trend of losses by using tensorboard
 
 ## Installation
 Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
