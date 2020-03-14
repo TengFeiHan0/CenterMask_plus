@@ -3,10 +3,10 @@
 ## Note:  The original implementation is at [here](https://github.com/youngwanLEE/CenterMask). More details could be found in their project. this project is still contructing, models are still running on my server, once got some results, I will update this project.
 
 ## Highlights
-- **LOSS** . various loss functions(DistanceIOU, CompleteIOU) are supplied
+- **LOSS** . various loss functions(DistanceIOU, CompleteIOU) will be supplied
 - **DATASET** . interfaces to more driving datasets(including KITTI, Cityscapes) 
 - **ATSS**. a new proposed idea(ATSS) based on FCOS will be included
-- **Tensorboard**. to display the trend of losses by using tensorboard
+- **Tensorboard**. to display losses 
 
 ## Installation
 Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
@@ -84,7 +84,8 @@ wget https://www.dropbox.com/s/2enqxenccz4xy6l/centermask-lite-R-50-ms-bs32-1x.p
 CUDA_VISIBLE_DEVICES=0
 python tools/test_net.py --config-file "configs/centermask/centermask_R_50_FPN_lite_res600_ms_bs32_1x.yaml" TEST.IMS_PER_BATCH 1 MODEL.WEIGHT centermask-lite-R-50-ms-bs32-1x.pth
 ```
-
+#### Tensorbaord
+in order to visualize our losses, please install tensorboardX by typing ```pip install tensorboardX```
 ## TODO
  - [] add [ATSS](https://github.com/sfzhang15/ATSS) provided by a CVPR2020
  - [] add [PointRend](https://github.com/facebookresearch/detectron2/tree/master/projects/PointRend)
