@@ -5,8 +5,8 @@
 ## Highlights
 - **LOSS** . various loss functions(DistanceIOU, CompleteIOU) are supplied
 - **DATASET** . interfaces to more driving datasets(including KITTI, Cityscapes) 
-- **ATSS**. many new proposed ideas(ATSS) based on FCOS will be included
-- **Tensorboard**. to disply the trend of losses by using tensorboard
+- **ATSS**. a new proposed idea(ATSS) based on FCOS will be included
+- **Tensorboard**. to display the trend of losses by using tensorboard
 
 ## Installation
 Check [INSTALL.md](INSTALL.md) for installation instructions which is orginate from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark).
