@@ -1,6 +1,6 @@
 # CenterMask_plus(under construction)
 
-## Note:  The original implementation is at [here](https://github.com/youngwanLEE/CenterMask). More details could be found in their project.
+## Note:  The original implementation is at [here](https://github.com/youngwanLEE/CenterMask). More details could be found in their project. this project is still contructing, models are still running on my server, once got some results, I will update this project.
 
 ## Highlights
 - **LOSS** . various loss functions(DistanceIOU, CompleteIOU) are supplied
