@@ -83,7 +83,7 @@ FCOS on COCO2017val
 |Detector | Backbone |  epoch |   Mask AP (AP/APs/APm/APl) | Box AP (AP/APs/APm/APl) |  Time (ms) | Weight |
 |----------|----------|:--------------:|:-------------------:|:------------------------:| :---:|:---:|
 | Mask R-CNN    | R-50-FPN   |    24 |   35.9/17.1/38.9/52.0 |     39.7/24.0/43.0/50.8              | 77      | [link](https://www.dropbox.com/s/r3ocl8ls45wsbgo/MRCN-R-50-FPN-ms-2x.pth?dl=1)|
-| **FCOS**    | R-50-FPN   |    24 |   |       41.2/24.9/45.1/53.0            | 72      | [link](https://www.dropbox.com/s/bhpf6jud8ovvxmh/centermask-R-50-FPN-ms-2x.pth?dl=1)|
+| **FCOS**    | R-50-FPN   |    24 |   |     33.4/18.4/36.4/41.8             |      |
 | **CenterMask**    | **V2-39-FPN**   |    24 | 37.7/17.9/40.8/54.3   |         42.6/25.3/46.3/55.2          | **70**      | [link](https://www.dropbox.com/s/ugcpzcx5b4btvjc/centermask-V2-39-FPN-ms-2x.pth?dl=1)|
 | Mask R-CNN    | R-50-FPN   |    36 |   36.5/17.9/39.2/52.5|     40.5/24.7/43.7/52.2              | 77      | [link](https://www.dropbox.com/s/09ny9ofj5t1r883/MRCN-R-50-FPN-ms-3x.pth?dl=1)|
 | **CenterMask**    | R-50-FPN   |    36 | 37.0/17.6/39.7/53.8  |       41.7/24.8/45.1/54.5            | 72      | [link](https://www.dropbox.com/s/438pbeuqlj1spf0/centermask-R-50-FPN-ms-3x.pth?dl=1)|
